@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 800px;
+  background-color: white;
+  background-image: url(../images/bats.gif);
+  background-position: center; /* Center the image */
+  border-top-style: 5px solid black;
+  border-bottom-style: 5px solid black;
+  border-right-style: 5px solid black;
+  border-left-style: 5px solid black;
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar {
+  width: 160px;
+  float: left;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 458px;
+  position: absolute;
+}
+
+main{
+  background-color: white;
+  margin-left:170px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.shadow {
+  background-color: white;
+  -moz-box-shadow:    0 6px 6px 10px black; 
+  -webkit-box-shadow: 0 6px 6px 10px black; 
+  box-shadow:         0 6px 6px 10px black;
+}
+
+.border-line{
+  border-bottom: 3px solid #000;
+}
+.h1-space{
+  margin-bottom: -20px; 
+  margin-left: 100px; 
+}
+.img-float{
+  float:left;
+}
+.h3-space{
+  margin-bottom: 5px; 
+  margin-left: 100px; 
+}
+.header-gradient {
+  background: linear-gradient(45deg, white, orange 75%, black);
+}
+
+.footer-gradient {
+  background: linear-gradient(45deg, black, orange 25%, white);
+}
+
+h2{
+  font-size: 150%;
+}
+h2::first-letter{
+  font-size: 200%;
+}
+
+h1{
+  font-size: 240%;
+  font-style: bold; 
+}
+
+h3{
+  font-size: 140%;
+}
+
+ul li {
+  padding-left : 5px;
+  padding-bottom : 5px;
+}
+a{
+  color: orange;
+  font-weight: bold;
+}
+a:hover {
+  background-color: green;
+}
+
+footer{
+  border-top: 3px solid #000;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
