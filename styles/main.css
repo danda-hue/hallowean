@@ -97,6 +97,7 @@ ul li {
 .vbar {
   padding: 40px 20px;
   width: 160px;
+  height: 468px;
   float: left;
   background-color: white;
   position: absolute;

@@ -4,37 +4,57 @@
 <head>
 	<meta charset="utf-8" />
 	<title>The Halloween Store</title>
+	<link rel="shortcut icon" href="../images/favicon.ico">
 	<link rel="stylesheet" href="../styles/product.css">
 </head>
 
 <body class="shadow">
 	<header class="drawer-line header-gradient">	
-		<img class="img-float" src="../images/pumpkin.gif" alt="Pumpkin" width="80">
+		<img class="img-float" src="../images/pumpkin.gif" alt="Pumpkin" width="80" usemap="#home">
+		<map name="home">
+			<area shape="circle" coords="0,0,100" alt="ho" href="../index.html">
+		</map>
+		
+</body>
+</html>
+
 		<h1 class="h1-space">The Halloween Store</h1>
 		<h3 class="h3-space">For the little Goblin in all of us!</h3>
 	</header>
 	
 	<div class="hbar">
 		<a class="hbar-item hbar-color" href="../index.html" >Home</a>
-		<a class="hbar-item hbar-color" href="1.html" >Product List</a>
-		<a class="hbar-item hbar-color" href="2.html" >Personal</a>
-		<a class="hbar-item hbar-color" href="3.html" >Decorating Ideas</a>
-		<a class="hbar-item hbar-color" href="4.html" >Join Emails</a>
+		<a class="hbar-item hbar-color" href="#" >Product List</a>
+		<a class="hbar-item hbar-color" href="#" >Personal</a>
+		<a class="hbar-item hbar-color" href="#" >Decorating Ideas</a>
+		<a class="hbar-item hbar-color" href="#" >Join Emails</a>
 	</div>
 
-	<div class="vbar">
-		<a class="vbar-item vbar-color" href="props.html"> Props</a>
-		<a class="vbar-item vbar-color" href="costumes.html"> Costumes</a>
-		<a class="vbar-item vbar-color" href="special.html"> Special FX</a>
-		<a class="vbar-item vbar-color" href="marks.html"> Marks</a>
+	<div id="vlbar">
+		<a class="vlbar-item vlbar-color" href="props.html"> Props</a>
+		<a class="vlbar-item vlbar-color" href="costumes.html"> Costumes</a>
+		<a class="vlbar-item vlbar-color" href="special.html"> Special FX</a>
+		<a class="vlbar-item vlbar-color" href="marks.html"> Marks</a>
 	</div>
 		
+	<ul id="vrbar">
+		<p class="v-bold"> Customers who bought this product also bought:</p>
+		
+		<img class="img-right" src="../images/flying_bats.jpg" alt="Bats" width="40"><br>
+		<a class="v-frmt" href="flying_bats.html">Flying Bats</a><br>
+		
+		<img class="img-right" src="../images/rat1.jpg" alt="Rats" width="40"><br>
+		<a class="v-frmt" href="rats1.html">16'' Ugly rat</a><br>
+		
+		<img class="img-right" src="../images/strobe1.jpg" alt="Strobe" width="40"><br>
+		<a class="v-frmt" href="strobe1.html">Mini strobe light</a><br>
+	</ul>
 	<main>
 		<h3 >20'' Deranged Cat</h3>
 
 		<img class="img-product" src="../images/cat1.jpg" alt="Cat" width="150">
 		<p>This cat provides its own light and is perfect for a backyard haunting.</p>
-		<p> <span class="bold">Price:</span> 19.99 </p>
+		<p> <span class="v-bold">Price:</span> 19.99 </p>
 		
 		<br><br><br><br><br><br><br><br><br><br>
 

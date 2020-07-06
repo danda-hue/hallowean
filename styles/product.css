@@ -29,6 +29,11 @@ body {
 .img-float{
   float:left;
 }
+
+.img-right{
+  padding: 10px 20px 10px 5px;
+  position: static; 
+}
 .img-product{
   float:left;
   padding: 15px;
@@ -94,15 +99,16 @@ ul li {
   color: white;
 }
 
-.vbar {
+#vlbar {
   padding: 40px 20px;
   width: 160px;
+  height: 295px;
   float: left;
   background-color: white;
   position: absolute;
 }
 
-.vbar-item{
+.vlbar-item{
   margin-bottom: 8px;
   padding : 12px 12px 12px 20px;
   float:left;
@@ -111,24 +117,49 @@ ul li {
   border : 2px double black;
 }
 
-.vbar-color{
+.vlbar-color{
   color: black;
   font-weight: bold;
 }
 
+#vrbar {
+  margin-top: -1px;
+  margin-right:208px;
+  height: 376px;
+  width: 160px;
+  right: 0;
+  background-color: #F3DE9B;
+  position: absolute;
+  padding : 0 5px 0 20px; 
+}
+.v-bold{
+  font-weight: bold;
+}
+.v-frmt{
+  padding : 0 0 0 10px; 
+  font-size:80%;
+}
 a{
   text-decoration : none;
   color: orange;
 }
 
-.vbar a:link{
+#vlbar a:link{
   font-weight: bold;
 }
 
-.vbar a:hover {
+#vlbar a:hover {
   background-color: gray;
 }
 
+#vrbar a:link{
+  font-weight: normal;
+  color:black;
+}
+
+#vrbar a:hover {
+  color:green;
+}
 .hbar a:link{
   color: white;
 }
@@ -140,10 +171,11 @@ a{
 main{
   background-color: white;
   margin-left:170px;
+  margin-right:170px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   padding-left: 30px;
-  padding-right: 40px;
+  padding-right: 50px;
 }
 
 
