@@ -137,10 +137,6 @@ a{
   background-color: gray;
 }
 
-.hbar a:visited {
-  color: orange;
-}
-
 main{
   background-color: white;
   margin-left:170px;
